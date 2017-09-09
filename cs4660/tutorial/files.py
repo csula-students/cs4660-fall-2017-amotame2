@@ -17,9 +17,9 @@ class SimpleFile(object):
             if len(line)>0:
                  parts = list(map(int,line.split(' ')))
                  self.numbers.append(parts)
-        print(self.numbers)
-        print (parts)
-        print(text)
+      #  print(self.numbers)
+      #  print (parts)
+      #   print(text)
 
     def get_mean(self, line_number):
         """
